@@ -6,10 +6,15 @@
   width: 100vw;
   top: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 32px;
   font-weight: 600;
+}
+
+#no-mobile img {
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 645px) {

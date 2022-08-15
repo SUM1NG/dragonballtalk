@@ -4,7 +4,7 @@
 
 .more-suggestions {
   margin-top: 50px;
-  border-top: var(--main-border);
+  border-top: 1px solid whitesmoke;
   padding-top: 30px;
 }
 
@@ -36,5 +36,9 @@
 
 .more-suggestions__icon__image i {
   font-size: 32px;
-  color: white;
+  color: whitesmoke;
+}
+
+.fa-envelope-open-text {
+  color: whitesmoke;
 }

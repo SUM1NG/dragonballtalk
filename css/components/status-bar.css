@@ -1,4 +1,5 @@
 .status-bar {
+  background-color: var(--yellow);
   position: fixed;
   top: 0;
   width: 100%;

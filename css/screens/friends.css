@@ -21,7 +21,7 @@
 
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: var(--main-border);
+  border-top: 1px solid var(--yellow);
   padding-top: 15px;
 }
 
@@ -30,7 +30,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgba(0, 0, 0, 0.5);
 }
 
 @keyframes hideSplashScreen {
@@ -55,4 +54,10 @@
   font-size: 130px;
   animation: hideSplashScreen 0.5s ease-in-out forwards;
   animation-delay: 1s;
+}
+
+#friends-display-link,
+#friends-display-link i {
+  background-color: var(--yellow);
+  color: whitesmoke;
 }

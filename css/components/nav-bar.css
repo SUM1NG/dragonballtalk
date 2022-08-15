@@ -1,8 +1,8 @@
 .nav {
+  background-color: var(--yellow);
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.2);
@@ -73,4 +73,8 @@
 
 .nav__btn:last-child {
   animation-delay: 0.9s;
+}
+
+.nav__btn i {
+  color: whitesmoke;
 }

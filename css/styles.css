@@ -22,8 +22,9 @@
 
 body {
   font-family: "Ibarra Real Nova", serif;
-  color: #2e363e;
+  color: whitesmoke;
   height: 1000vh;
+  background-color: #013876;
 }
 
 .main-screen {

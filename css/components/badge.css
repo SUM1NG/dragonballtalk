@@ -2,10 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: tomato;
+  background-color: #013876;
   height: 25px;
   width: 25px;
   border-radius: 50%;
-  color: white;
+  color: whitesmoke;
   font-weight: 600;
+}
+
+.yellow__badge {
+  background-color: var(--yellow);
 }
